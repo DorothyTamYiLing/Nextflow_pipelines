@@ -1,9 +1,9 @@
-# Introduction
+## Introduction
 Nanopore_assembly pipeline contains processes from Nanopore reads QC to assembly polishing.
 
 short_reads consensus pipeline contains processes from pair-end reads QC to consensus sequences based on a reference provided by the user.
 
-# Usage
+## Usage
 To run the Nextflow pipelines with Docker (placing in the working directory the docker nextflow configuration file)
 ```
 nextflow run Nanopore_assembly_docker.nf
